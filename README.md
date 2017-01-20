@@ -9,5 +9,5 @@
 
 // 创建下拉菜单控制器
 HWPopverController * popVC = [HWPopverController
-                              achievePopverControllerWithContentViewController:testVC];
+                              achievePopverControllerWithContentViewController:自己想要显示的内容控制器];
 ```

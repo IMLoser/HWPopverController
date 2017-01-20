@@ -4,4 +4,11 @@
 + 自定义显示内容，提供内容控制器参数.
 + 内含HWArrowRect结构体类型属性，动态改变下拉菜单箭头位置尺寸.
 
-### How to use
+### How to use 
+```objc
+// 创建内容视图控制器 自定义
+    HWTestVC * testVC = [[HWTestVC alloc] initWithStyle:(UITableViewStylePlain)];
+    // 创建下拉菜单控制器
+    HWPopverController * popVC = [HWPopverController
+                                  achievePopverControllerWithContentViewController:testVC];
+```

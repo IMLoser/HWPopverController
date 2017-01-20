@@ -32,6 +32,19 @@ popVC.arrowRect = HWArrowRectMake(15, 15, 50);
 ### Main Interfaces
 ```objc
 
+#import <UIKit/UIKit.h>
+
+@interface HWPopverController : UIViewController
+
+typedef struct {
+    
+    CGFloat arrowHeight;
+    CGFloat arrowWidth;
+    CGFloat arrowX;
+    
+}HWArrowRect;
+
+/** HWArrowRect赋值函数 */
 HWArrowRect HWArrowRectMake(CGFloat arrowH, CGFloat arrowW, CGFloat arrowX);
 
 @property (nonatomic, weak) UIView * contentView;
@@ -65,5 +78,7 @@ HWArrowRect HWArrowRectMake(CGFloat arrowH, CGFloat arrowW, CGFloat arrowX);
 
 /** 移除菜单 */
 - (void)closeMenu;
+
+@end
 
 ```

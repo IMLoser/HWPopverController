@@ -27,4 +27,4 @@ popVC.arrowRect = HWArrowRectMake(15, 15, 50);
 ```
 
 ### Effect
-![]{https://github.com/IMLoser/HWPopverController/blob/master/HWPopverDemo/自定义下拉菜单/HWPopverController.gif}
+![](https://github.com/IMLoser/HWPopverController/blob/master/HWPopverDemo/自定义下拉菜单/HWPopverController.gif)

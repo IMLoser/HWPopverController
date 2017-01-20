@@ -7,7 +7,10 @@
 ### How to use 
 ```objc
 
-// 创建下拉菜单控制器
+// 初始化下拉菜单控制器
 HWPopverController * popVC = [HWPopverController
                                   achievePopverControllerWithContentViewController:contentViewController];
+                                  
+// 弹出菜单
+[self presentViewController:popVC animated:YES completion:nil];
 ```

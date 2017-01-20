@@ -6,9 +6,8 @@
 
 ### How to use 
 ```objc
-// 创建内容视图控制器 自定义
-    HWTestVC * testVC = [[HWTestVC alloc] initWithStyle:(UITableViewStylePlain)];
-    // 创建下拉菜单控制器
-    HWPopverController * popVC = [HWPopverController
-                                  achievePopverControllerWithContentViewController:testVC];
+
+// 创建下拉菜单控制器
+HWPopverController * popVC = [HWPopverController
+                              achievePopverControllerWithContentViewController:testVC];
 ```

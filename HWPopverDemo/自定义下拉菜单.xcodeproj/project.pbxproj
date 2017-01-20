@@ -18,6 +18,7 @@
 		97FC086F1E31B4B0006D72D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC086C1E31B4B0006D72D7 /* ViewController.m */; };
 		97FC08731E31B4C9006D72D7 /* HWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08711E31B4C9006D72D7 /* HWTableViewCell.m */; };
 		97FC08741E31B4C9006D72D7 /* HWTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97FC08721E31B4C9006D72D7 /* HWTableViewCell.xib */; };
+		97FC087D1E31F4E2006D72D7 /* HWPopverController.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97FC087C1E31F4E2006D72D7 /* HWPopverController.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		97FC08701E31B4C9006D72D7 /* HWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTableViewCell.h; sourceTree = "<group>"; };
 		97FC08711E31B4C9006D72D7 /* HWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTableViewCell.m; sourceTree = "<group>"; };
 		97FC08721E31B4C9006D72D7 /* HWTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWTableViewCell.xib; sourceTree = "<group>"; };
+		97FC087C1E31F4E2006D72D7 /* HWPopverController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HWPopverController.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				97012BF51E2F07A500CB933F /* LaunchScreen.storyboard */,
 				97012BF81E2F07A500CB933F /* Info.plist */,
 				97012BE81E2F07A500CB933F /* main.m */,
+				97FC087C1E31F4E2006D72D7 /* HWPopverController.gif */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				97012BF71E2F07A500CB933F /* LaunchScreen.storyboard in Resources */,
 				97FC08741E31B4C9006D72D7 /* HWTableViewCell.xib in Resources */,
 				97012BF41E2F07A500CB933F /* Assets.xcassets in Resources */,
+				97FC087D1E31F4E2006D72D7 /* HWPopverController.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

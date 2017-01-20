@@ -25,3 +25,6 @@ popVC.arrowRect = HWArrowRectMake(15, 15, 50);
 // 弹出菜单
 [self presentViewController:popVC animated:YES completion:nil];
 ```
+
+### Effect
+![]{https://github.com/IMLoser/HWPopverController/blob/master/HWPopverDemo/自定义下拉菜单/HWPopverController.gif}
